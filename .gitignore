@@ -1,0 +1,32 @@
+# Python environment and caches
+backend/.venv/
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# React dependencies and build files
+node_modules/
+frontend/dist/
+dist/
+
+# Environment variables and API keys
+.env
+.env.*
+!.env.example
+
+# Analysis files, uploads and reports
+backend/data/
+backend/evaluation_videos/
+
+# Local models and temporary files
+*.pt
+*.pth
+*.onnx
+*.log
+
+# IDE / operating system files
+.vscode/
+.DS_Store
+Thumbs.db
